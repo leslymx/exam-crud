@@ -17,7 +17,7 @@ Instala las dependencias con:
 
 E instala las dependencias de npm con:
 ```
-    npm run install; npm run dev    
+    npm run install
 ```
 
 ### Conectar a la DB
