@@ -68,7 +68,7 @@ Customer
 
                                     <td>
                                         <form action="{{ route('customers.destroy',$customer->id) }}" method="POST">
-                                            <a class="btn btn-sm btn-primary " href="{{ route('customers.show',$customer->id) }}"><Show</a>
+                                            <a class="btn btn-sm btn-primary " href="{{ route('customers.show',$customer->id) }}">Show</a>
                                             <a class="btn btn-sm btn-success" href="{{ route('customers.edit',$customer->id) }}">Edit</a>
                                             @csrf
                                             @method('DELETE')
